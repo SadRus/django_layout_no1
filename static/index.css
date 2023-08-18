@@ -1,6 +1,7 @@
 .player {
     width: 800px;
     height: 600px;
+    box-shadow: 0px 0px 10px 10px rgba(0, 0, 0, 0.2);
 }
 .video-container {
     width: 100%;
