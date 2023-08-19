@@ -13,12 +13,13 @@
 }
 .left-buttons {
     display: flex;
+    font-size: large;
 }
 .player-button {
     background-color: transparent;
     border-style: none;
     color: white;
     cursor: pointer;
-    width: 20px;
+    width: 25px;
     height: 30px;
 }
