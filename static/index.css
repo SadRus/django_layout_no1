@@ -13,7 +13,6 @@
 }
 .left-buttons {
     display: flex;
-    font-size: large;
 }
 .player-button {
     background-color: transparent;
@@ -23,4 +22,5 @@
     width: 25px;
     height: 30px;
     margin-right: 5px;
+    font-size: large !important;
 }
