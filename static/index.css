@@ -11,7 +11,10 @@
 .bottom-controls {
     background-color: black;
 }
-.left-buttons button {
+.left-buttons {
+    display: flex;
+}
+.player-button {
     background-color: transparent;
     border-style: none;
     color: white;

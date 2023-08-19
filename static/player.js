@@ -65,10 +65,10 @@ function createPlayer({
       const $muteButton = $playerContainer.find('.js-mute-button');
 
       $volumeButton.click(()=>{
-        player.setVolume(100);
+        player.setVolume(0);
       });
       $muteButton.click(()=>{
-        player.setVolume(0);
+        player.setVolume(100);
       });
 
       function activateVolumeButton(){
@@ -83,9 +83,9 @@ function createPlayer({
 
       function toggleVolumeMuteBtns(){
         if (player.getVolume() > 0){
-          activateMuteBtn();
-        } else {
           activateVolumeButton();
+        } else {
+          activateMuteBtn();
         }
       }
 
@@ -202,7 +202,6 @@ function createPlayer({
       };
 
       const throttledUpdateVideoProgress = throttle(updateVideoProgress, 100);
-
 
       $progress.on('mousedown', function(e) {
         throttledUpdateVideoProgress(e.pageX);
