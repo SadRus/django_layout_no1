@@ -1,7 +1,8 @@
 # django_layout_no1
 
 ### Description
-Layout video-player for «ГОСТФильм»
+Layout video-player for «ГОСТФильм»  
+https://sadrus.github.io/django_layout_no1/static/
 
 ### Objective of project
 Layout for educational purposes within online courses for web developers dvmn.org.
@@ -16,3 +17,4 @@ You can use livereload CLI to running local server:
 ```livereload static```
 
 ### Example
+https://sadrus.github.io/django_layout_no1/static/
