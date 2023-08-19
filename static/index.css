@@ -9,11 +9,19 @@
     flex-grow: 2;
 }
 .bottom-controls {
+    display: flex;
     background-color: black;
+}
+.bottom-center{
+    flex-grow: 5;
 }
 .left-buttons {
     display: flex;
 }
+.right-buttons {
+    display: flex;
+}
+
 .player-button {
     background-color: transparent;
     border-style: none;
