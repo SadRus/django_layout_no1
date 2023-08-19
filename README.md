@@ -18,3 +18,4 @@ You can use livereload CLI to running local server:
 
 ### Example
 https://sadrus.github.io/django_layout_no1/static/
+![image](https://github.com/SadRus/django_layout_no1/assets/79669407/808e8134-3ae4-440f-856e-f9d4992c6a7b)
