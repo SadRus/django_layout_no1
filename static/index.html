@@ -10,33 +10,28 @@
   </head>
 
   <body>
-    <div class="player" id="player">
-      <div class="js-video-container video-container"></div>
+    <div class="vp-wrapper" id="player">
+      <div class="js-video-container vp-container"></div>
 
-      <div class="bottom-controls">
+      <div class="vp-controllers">
+        <button class="js-play-button player-button">
+          <i class="fa fa-play" aria-hidden="true"></i>
+        </button>
+        <button class="js-pause-button player-button">
+          <i class="fa fa-pause" aria-hidden="true"></i>
+        </button>
+        <button class="js-volume-button player-button">
+          <i class="fa fa-volume-up" aria-hidden="true"></i>
+        </button>
+        <button class="js-mute-button player-button">
+          <i class="fa fa-volume-off" aria-hidden="true"></i>
+        </button>
 
-        <div class="left-buttons">
-          <div class="js-play-button">
-            <button class="fa fa-play player-button" aria-hidden="true"></button>
-          </div>
-          <div class="js-pause-button">
-            <button class="fa fa-pause player-button" aria-hidden="true"></button>
-          </div>
-          <div class="js-volume-button">
-            <button class="fa fa-volume-up player-button" aria-hidden="true"></button>
-          </div>
-          <div class="js-mute-button">
-            <button class="fa fa-volume-off player-button" aria-hidden="true"></button>
-          </div>
-        </div>
+        <div class="progress-bar"></div>
 
-        <div class="bottom-center"></div>
-
-        <div class="right-buttons">
-          <div class="js-fullscreen-button">
-            <button class="fa fa-arrows-alt player-button"></button>
-          </div>
-        </div>
+        <button class="js-fullscreen-button player-button">
+          <i class="fa fa-arrows-alt"></i>
+        </button>
 
       </div>
     </div>

@@ -1,34 +1,28 @@
-.player {
+.vp-wrapper {
     width: 800px;
     height: 600px;
     box-shadow: 0px 0px 10px 10px rgba(0, 0, 0, 0.2);
     display: flex;
     flex-direction: column;
 }
-.video-container {
-    flex-grow: 2;
+.vp-container {
+    flex-grow: 1;
 }
-.bottom-controls {
+.vp-controllers {
     display: flex;
     background-color: black;
+    align-items: center;
 }
-.bottom-center{
-    flex-grow: 5;
+.progress-bar{
+    flex-grow: 1;
 }
-.left-buttons {
-    display: flex;
-}
-.right-buttons {
-    display: flex;
-}
-
 .player-button {
     background-color: transparent;
     border-style: none;
     color: white;
     cursor: pointer;
-    width: 25px;
-    height: 30px;
+    width: 35px;
+    height: 35px;
     margin-right: 5px;
-    font-size: large !important;
+    font-size: 20px;
 }
